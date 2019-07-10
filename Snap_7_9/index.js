@@ -26,10 +26,15 @@ let ska = operation(750,3);
 
 console.log(punk, ska, jazz);
 
-//Function #2
+//Function #2 - what I typed
 
 function concatenateTwoStrings (string1, string2) {
-	return string1 + " " string2;
-
-	console.log(contcatenateTwoStrings(string1:'thingOne', string2 'thingTwo'))
+	return string1 + " " + string2;
 }
+console.log(concatenateTwoStrings( 'thingOne', 'thingTwo'));
+
+//answer copied from slack
+function concatenateTwoStrings (string1, string2) {
+	return string1 + " " + string2;
+}
+console.log(concatenateTwoStrings('thingOne', 'thingTwo'));
