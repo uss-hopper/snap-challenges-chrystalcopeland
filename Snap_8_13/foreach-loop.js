@@ -192,8 +192,10 @@ var people =
 			"catchPhrase": "Centralized empowering task-force",
 			"bs": "target end-to-end models"
 		}
-	}]
+	}];
 people.forEach(function(person) {
+
+	// deleting the company in the element
 	delete person.company;
 });
 
